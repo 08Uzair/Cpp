@@ -1,1 +1,6 @@
 I am going to do Second Commit 
+ git init
+ git add .
+ git commit -m "Your commit"
+
+ git push -u origin main
