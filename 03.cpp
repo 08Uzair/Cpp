@@ -7,4 +7,4 @@ int main(){
     float c=a+b;
     cout<<c;
     return 0;
-}
+}   
