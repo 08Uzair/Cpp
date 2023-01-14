@@ -7,4 +7,4 @@ int main(){
     glo =56 ;
     cout<<glo;
     return 0;
-}
+}  
