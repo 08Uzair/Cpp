@@ -21,17 +21,29 @@ int main(){
 int age;
 cout<<"Enter Your Age : \n";
 cin>>age;
-if (age<=0){
-    cout<<"Age cannot be zero or negative";
-}
-else if(age<18){
-    cout<<"You can't come to the Party";
-}
-else if (age==18){
-    cout<<"You can Enter the party but you will get the kid Pass";
-}
-else{
-    cout << "You are Welcome to our Party";
+// if (age<=0){
+//     cout<<"Age cannot be zero or negative";
+// }
+// else if(age<18){
+//     cout<<"You can't come to the Party";
+// }
+// else if (age==18){
+//     cout<<"You can Enter the party but you will get the kid Pass";
+// }
+// else{
+//     cout << "You are Welcome to our Party";
+// }
+
+
+// Selection control structure :  for Swith Case
+switch (age)
+{
+case  18:
+cout<<"YOur Age s  18 ";
+    break;
+
+default:
+    break;
 }
 
     return 0;
