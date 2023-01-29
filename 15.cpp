@@ -14,6 +14,8 @@ int* b=&a;
 
 // * ---->Dereference operator
 cout << *b; //--->Value at Operator
+
+// Pointer to Pointer
 int** c=&b;
 cout<<&b;
 return 0 ;
